@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <div class="container">
+      <br>
+      <h1>Places Visited Details: </h1>
+
+      <h2>@Model.CityName</h2>
+      <ul>
+        <p>Days stayed: @Model.DaysStayed</p>
+        <p>Entry: @Model.JournalEntry</p>
+      </ul>
+
+      <p><a href='/places/new'>Add new entry</a></p>
+      <p><a href='/places'>View all entries</a></p>
+    </div>
+  </body>
+</html>
